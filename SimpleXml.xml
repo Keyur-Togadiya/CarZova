@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SimpleXml6.xsl"?>
+<Technical>
+<Technical-Details>
+<name >Brand</name>
+<address>JBL</address>
+<presentweight>second</presentweight>
+<goalweight>70</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Model</name>
+<address>JBLGO345</address>
+<presentweight>third</presentweight>
+<goalweight>90</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Model Name</name>
+<address>Go</address>
+<presentweight>third</presentweight>
+<goalweight>95</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Model Year</name>
+<address>2015</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Item Weight</name>
+<address>132 g</address>
+<presentweight>fifth</presentweight>
+<goalweight>90</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Product Dimensions</name>
+<address>8.3 x 3.1 x 6.8 cm</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Batteries:</name>
+<address>1 Lithium Polymer batteries required.
+</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Item model number</name>
+<address>JBLGOBLK</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Included Components</name>
+<address>1</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Number Of Items</name>
+<address>1</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Colour Screen</name>
+<address>No</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Spearkers Maximum Output Power</name>
+<address>3 Watts</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Speaker Connectivity</name>
+<address>wireless</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Audio Wattage</name>
+<address>3 Watts</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Voltage </name>
+<address>3.7 Volts</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Wattage</name>
+<address>3 Watts</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Batteries Included </name>
+<address>Yes</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Batteries Required</name>
+<address>Yes</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+<Technical-Details>
+<name>Battery Cell Composition </name>
+<address>Lithium Polymer</address>
+<presentweight>fourth</presentweight>
+<goalweight>80</goalweight>
+</Technical-Details>
+</Technical>

@@ -1,0 +1,408 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family: calibri,"Times New Roman","sans-serif";
+}
+
+
+.fix div img{
+    width: 10%;
+    float: left;
+}
+
+#navdiv{
+  padding: 0.8%; 
+}
+
+ul.topnav {
+    list-style-type: none; 
+}
+
+#carzova{
+    padding-right: 10%;
+    padding-left: 1%;
+}
+
+
+ul.topnav li {
+    float: left; 
+    padding:0;
+    background-color: rgba(26, 25, 25,1);
+    color:rgba(256,256,256,1);
+
+    font-size:1.8vw; 
+    text-align: center;
+    font-family: calibri;
+    font-style: normal;
+    
+}
+
+ul.topnav li a {
+    background-color: rgba(28,26,26,1);
+    display: block;
+    color: white;   
+    text-decoration: none;
+    transform: skewX(-15deg);
+    padding: 6px 20px;
+    margin-top:-5px;
+}
+
+ul.topnav li a:hover:not(active) {
+    background-color: rgba(255,255,255,0.9); color:#000;
+}
+
+.active{
+    background-color: #fff; 
+
+}
+
+.active :hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul.topnav li.right {float: right;}
+
+
+.droplogo {
+    display:block;
+    color:rgba(26,25,25,1);
+    padding: 0;
+    text-decoration: none;
+    text-align: right;
+}
+
+li a:hover, #drop:hover .droplogo {
+    background-color: rgba(26, 25, 25,1);
+}
+
+#drop {
+    background-color: rgba(26, 25, 25,1);
+    display: block;
+    transform: skewX(0deg); 
+    float: right;
+    padding: 0;
+    margin-right: 0.5%;
+    width: 10%;
+}
+
+#drop img{
+    width: 20%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.droplist {
+    display: none;
+    position: relative;
+    background-color: rgba(26, 25, 25,1);
+    z-index: 1;
+    margin: 2.5%;
+}
+
+.droplist a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+
+}
+
+.droplist a:hover {background-color: #fff}
+
+#drop:hover .droplist {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial_scale=1">
+        <meta name="keywords" content="footer, address, phone, icons" />
+
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+            *{
+                font-family: 'Oleo Script', calibri, sans-sarif;
+
+            }
+
+
+            .footer-distributed{
+                width: 100%;
+                text-align: left;
+                margin-top: 80px;
+            }
+
+            .footer-distributed .footer-left,
+            .footer-distributed .footer-center,
+            .footer-distributed .footer-right{
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            /* Footer left */
+
+            .footer-distributed .footer-left{
+                width: 36%;
+            }
+
+            /* Gamefence logo */
+
+            .footer-distributed h3{
+                color:  #ffffff;
+                font: normal 36px 'Cookie', cursive;
+                margin: 0;
+            }
+
+            .footer-distributed h3 span{
+                color:  #5383d3;
+            }
+
+            /* Footer links */
+
+            .footer-distributed{
+                color:  #ffffff;
+                margin: 20px 0 12px;
+                padding: 0;
+            }
+			.footer-links{
+                color:  #ffffff;
+                margin: 0% 0% 0% 0%;
+                padding: 0;
+            }
+            .footer-links a{
+				margin: 0% 0% 10% 0%;
+				padding: 0% 0% 10% 0%;
+				line-height: 28px;
+				text-decoration: none;
+                color:  inherit;
+            }
+            .footer-links a:hover{
+                margin: 0% 0% 10% 0%;
+                padding: 0% 0% 10% 0%;
+                line-height: 28px;
+                text-decoration: none;
+                color: rgba(255,71,71,0.9);
+            }
+
+            .footer-distributed .footer-company-name{
+                color:  #8f9296;
+                font-weight: 100;
+                margin: 0;
+            }
+
+            /* Footer Center */
+
+            .footer-distributed .footer-center{
+                width: 35%;
+            }
+
+            .footer-distributed .footer-center i{
+                background-color:  #33383b;
+                color: #ffffff;
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                text-align: center;
+                margin: 10px 15px;
+                vertical-align: middle;
+            }
+
+            .footer-distributed .footer-center i.fa-envelope{
+            }
+
+            .footer-distributed .footer-center p{
+                display: inline-block;
+                color: #ffffff;
+                vertical-align: middle;
+                margin:0;
+            }
+
+            .footer-distributed .footer-center p span{
+                display:block;
+                font-weight: 100;
+
+            }
+
+            .footer-distributed .footer-center p a{
+                color:  #5383d3;
+                text-decoration: none;;
+            }
+
+
+            /* Footer Right */
+
+            .footer-distributed .footer-right{
+                width: 19%;
+            }
+
+            .footer-distributed .footer-company-about{
+                color:  #92999f;
+                font-weight: 100;
+                margin: 0;
+            }
+
+            .footer-distributed .footer-company-about span{
+                display: block;
+                color:  #ffffff;
+                font-weight: 100;
+                margin-bottom: 20px;
+            }
+
+            .footer-distributed .footer-icons{
+                margin-top: 25px;
+            }
+
+            .footer-distributed .footer-icons a{
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+                background-color:  #33383b;
+                border-radius: 2px;
+                color: #ffffff;
+                text-align: center;
+                margin-right: 3px;
+                margin-bottom: 5px;
+            }
+
+
+            @media (max-width: 1100px) {
+                *{
+                    font-family:  'Oleo Script',calibri, 'sans-serif';
+                }
+
+                .footer-distributed{
+                    font: 100 14px sans-serif;
+                }
+
+                .footer-distributed .footer-left,
+                .footer-distributed .footer-center,
+                .footer-distributed .footer-right{
+                    display: block;
+                    width: 80%;
+                    margin: 0 auto 40px auto;
+                    text-align: center;
+                    font-family: 'Oleo Script', calibri, 'sans-serif';
+                    font-size: 1.1vh;
+                }
+
+                .footer-distributed .footer-center i{
+                    margin-left: 0;
+                }
+
+            }
+
+
+
+
+
+
+
+
+.iconsfoot{
+ background-color: #fff;
+ border-radius: 0%;
+ color: rgba(26, 25, 25,1);
+ transition: 0.5s;
+}
+
+.iconsfoot:hover {
+    transform: scale3d(1.2,1.2,1.5);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+    color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+/* Navigation bar */
+
+@media screen and (max-width: 1100px){
+    .fix div img{
+       width: 24%;
+       display: block;
+       margin: 2% auto 2% auto;
+    }
+    .fix div img,
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+
+
+#carzova{
+    display: none;
+}
+
+
+ul.topnav li a {
+    display: block;
+    color: white;   
+    text-decoration: none;
+    transform: skewX(0deg);
+    padding: 6px 20px;
+     margin-top:-5px;
+}
+
+.topnav #drop {
+    display: block;
+    margin: 0% auto 0% auto; 
+    padding: 0px 0px;
+}
+
+
+
+#drop {
+    background-color: rgba(26, 25, 25,1);
+    display: block;
+    transform: skewX(0deg); 
+    float: center;
+    padding: 0;
+    width: 100%;
+}
+
+#drop img{
+    width: 5%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.droplist {
+    display: none;
+    position: relative;
+    background-color: rgba(26, 25, 25,1);
+    z-index: 1;
+    margin: 0px;
+}
+
+.droplist a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+
+}
+
+ul.topnav li.right {float: center;}
+
+}

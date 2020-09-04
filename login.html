@@ -1,0 +1,82 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>CARZOVALOGIN </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="log.css"/>
+		<style type="text/css">
+		a{
+			text-decoration-line: none;
+			color: white;
+			
+		}
+  table{margin: auto;}
+    td{text-align: left;}
+    .frmbtn{
+    display:  margin: auto; margin-top: 0px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 200px;    
+    }
+    form{display: block;margin: auto;  width: 450px;height: 780px; }
+    td{padding: 5px}
+    .frmbtn:hover{color: black;
+    background: rgba(0,0,0,0.5)}
+        .f1{width: 335px; height: 40px; border-radius: 10px; font-family: Helvetica; font-size: 15px; 
+            border: none;
+            background: rgba(0,0,0,0);
+            border-bottom: solid 3px white;
+            color: black;
+        }
+        ::-webkit-input-placeholder {
+}
+        .f1:focus{
+        border: solid 2px ; outline: none;
+        }
+
+    </style>
+<script src="../INP/0/log.js" type="text/javascript">
+</script>
+
+	</head>
+
+	<body onload="newQuote()" >
+			
+		<div class="simple-form">
+			<div class="backgroung-wrap">
+				<video id="bg" preload="auto" autoplay="true" loop="loop" muted="muted"><source src="agam 1.mp4" type="video/mp4"></video>
+			<div class="split left">
+				<div class="centered">
+					<div id="quoteDisplay">
+				<script src="javascript.js">
+									</script>
+				</div>
+			</div>
+			</div>
+			<div class="split right">
+				
+				<form id="login" name="form2" action="inp.html" onsubmit="return validateForm()" method="post">
+					<div class="centered">
+						
+					<img src="02.png">
+					
+					<br>
+					<br>
+					<label for="name" id="but">USERNAME : </label>
+					<input type="text" name="Uname" id="button" placeholder=" USERNAME"><br>
+					<br>
+					<label for="name" id="but">PASSWORD : </label>
+					<input type="text" name="Pname" id="button" placeholder="PASSWORD"><br>
+					<br>
+					<button type="Login" id="sub" class="frmbtn">SUBMIT</button><br><br>
+					<label type="Login" id="ski"><a href="inp.html">Skip>></a></label>
+				</div>
+
+			</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

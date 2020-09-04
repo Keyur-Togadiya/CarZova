@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+  <cd>
+    <sr>1</sr>
+    <fname>Atharva</fname>
+    <lname>More</lname>
+    <loc>Mumbai</loc>
+    <age>20</age>
+  </cd>
+  <cd>
+    <sr>2</sr>
+    <fname>Aashutosh</fname>
+    <lname>Singh</lname>
+    <loc>Delhi</loc>
+    <age>20</age>
+  </cd>
+  <cd>
+    <sr>3</sr>
+    <fname>Rajesh</fname>
+    <lname>Nair</lname>
+    <loc>Kerala</loc>
+    <age>20</age>
+  </cd>
+   <cd>
+    <sr>4</sr>
+    <fname>Royston</fname>
+    <lname>Furtado</lname>
+    <loc>Manglore</loc>
+    <age>20</age>
+  </cd>
+
+<cd>
+    <sr>5</sr>
+    <fname>Meet</fname>
+    <lname>Shah</lname>
+    <loc>Delhi</loc>
+    <age>20</age>
+  </cd>
+<cd>
+    <sr>6</sr>
+    <fname>Roneel</fname>
+    <lname>Govekar</lname>
+    <loc>Mumbai</loc>
+    <age>20</age>
+  </cd>
+    <cd>
+    <sr>6</sr>
+    <fname>Siddhant</fname>
+    <lname>Patil</lname>
+    <loc>Mumbai</loc>
+    <age>19</age>
+  </cd>
+
+</catalog>

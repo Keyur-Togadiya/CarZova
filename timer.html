@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"/>
+ <title>JavaScript - Using a timer to change an image</title>
+ <script type="text/javascript">
+ 
+ /* In the previous tutorial, we changed an image by clicking on it.
+ This time the image will change by itself over time.
+ This could be used for an ad banner that changes every few seconds.
+ It uses much of the existing code from the previous tutorial.
+ */
+ 
+ var image_tracker = 'orange';
+ 
+ function change(){
+ var image = document.getElementById('circle');
+ if(image_tracker=='orange'){
+ image.src='kt.jpg';
+ image_tracker='blue';
+ }
+ else{
+ image.src='passs.jpg';
+ image_tracker='orange';
+ }
+ }
+ 
+ // Either the setTimeout() method or the setInterval() method can be used.
+ // With the setTimeout() method, it takes two parameters.
+ // The first parameter is the code to run, the second parameter is time in milliseconds. 1 sec = 1000 ms.
+ // the setTimeout() method only runs once. To repeat, we use the setInterval() method instead.
+ // It also uses two parameters, the code to run (or function to use), and the timer interval.
+ 
+ var timer = setInterval('change();',3000); 
+ 
+ // this function is called when the onclick event runs. It stops the timer running.
+ function stop(){
+ clearInterval(timer); //the clearInterval method stops the timer from running
+ }
+ 
+ </script>
+ 
+</head>
+<body>
+ 
+<img src="02.png" alt="Circle" id="circle" onclick="stop();">
+ 
+ 
+</body>
+</html>

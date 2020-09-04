@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <!--A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling-->
+  <meta name="viewport" content="width=device-width , initial_scale=1.0">
+  <link rel="stylesheet" href="logonav.css">
+  <link rel="stylesheet" href="k.css">
+  <link rel="stylesheet" type="text/css" href="imagehover.css">
+
+	<style>
+	
+*{
+	font-family: 'Oleo Script', calibri, sans-sarif;
+}
+
+.team-section1{
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+}
+.team-section1 h1{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.border1{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.ps1{
+  margin-bottom: 0px;
+}
+.ps1 a{
+  display: inline-block;
+  margin: 0 6%;
+  width: 170px;
+  height: 160px;
+  overflow: hidden;
+  font: normal 3vh cursive;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.ps1 a img{
+  width: 100%;
+  filter: whitescale(100%);
+  transition: 0.4s all;
+}
+.ps1 a:hover > img{
+  filter: hue-rotate(100deg);
+}
+.section1{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section1:target{
+  height: auto;
+}
+.name1{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+
+
+
+.ps2{
+  margin-bottom: 0;
+}
+.ps2 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  font: normal 36px cursive;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2.5vh;
+  text-align: center;
+  border-radius: 50%;
+}
+    
+    
+    
+    
+.team-section5{
+	overflow: hidden;
+	text-align: center;
+	background-color: rgba(28, 26, 26,1);
+	padding: 25px;
+}
+.team-section5 span{
+	margin: 0;
+	color:white;
+	font-size: 12vh;
+}
+.border5{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background-color:#fff;
+	color: #fff;
+	margin-bottom: 40px;
+
+}
+.ps5{
+	margin-bottom: 40px;
+}
+.ps5 a{
+	display: inline-block;
+	margin: 0 3%;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 1%;
+	
+}
+.ps5 a img{
+	width: 100%;
+	filter: none;
+	transition: 0.4s all;
+}
+.ps5 a:hover > img{
+	filter: grayscale(100%);
+}
+    
+    
+    
+    
+    
+.wrapper{
+  width: 300px;
+  height: 400px;
+  padding-right: 0%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 3%;
+}
+
+.img-area{
+        margin: 0;
+        height: 320px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3% 3% 0% 0%;
+        transition: 0.1s;
+      } 
+
+.img-caption{
+        margin: 0;
+        padding: 0;
+        line-height: 25px;
+        position: relative;
+        bottom: -100%;
+        transition: 0.8s linear;
+
+      }
+.effect-top{
+        border-bottom: 10px;
+        border-right: 400px;
+      }
+
+.effect-bottom{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        height: 400px;
+        font-family: poppins;
+        font-size: 1.7vw;
+        width: 100%;
+        color: #fff;
+        background-color: transparent;
+        background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,0) 100%); 
+        padding-top: 65%;
+      }
+
+.wrapper:hover {
+        bottom: 0;
+        background-color: transparent;
+        background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,0) 100%);            
+        transform: scale(1);
+
+      }
+.wrapper:hover p{
+    display: none;
+}
+.img-area:hover .img-caption {
+        bottom: 0; 
+        height: 400px;          
+      }
+
+
+.img-area:hover{
+        transform: scale(1);
+        height: 400px;
+        border-radius: 3%;
+      }    
+	hr{
+display: block;
+margin-top: 75%;
+border-width: 1px;
+}
+
+</style>
+</head>
+<body>
+	<header>
+	<div class="fix">      
+  		<div id="navdiv">
+     		<nav>
+	     		<a href="carhome.html"><img src="logo.png" style=" width: 10%;">
+	     		</a>
+	      		 </div>
+	      		    <ul class="topnav">
+		            <li align="left" id="carzova">Car   Zova</li>
+		            <li><a class="active" href="carhome.html"style="background-color: #fff; color: #000;">Home</a></li>
+		            <li><a href="carshop.html">Shop</a></li>
+		            <li><a href="about us.html">About</a></li>
+		            <li><a href="#carcontact" >Contact Us</a></li>
+		            <li  class="drop" class="right" style="transform: skewX(deg); float: right;padding: 0px -15px;">
+		            <img class="right" src="user.png" style="width:12%; padding: 0px;margin:0px;">
+		            <div class="droplist" style="margin:5px;">
+		              	<a href="carregister.html" style="margin: 0px 60px; padding: 2%;">Sign-Up</a>
+		                <a href="carlogin.html" style="margin: 0px 60px; padding: 2%;">Sign-In</a>
+		            </div>          
+		            </li>
+		            </ul>
+       		</nav>
+       	</div>
+</header>
+<div>
+	<div class="container">
+		<ul class="thumb">
+			<li><a href="porschespeaker1.jpg" target="imgBox"><img src="porschespeaker1.jpg"></a></li>
+			<li><a href="porschespeaker2.jpg" target="imgBox"><img src="porschespeaker2.jpg"></a></li>
+			<li><a href="porschespeaker3.jpg" target="imgBox"><img src="porschespeaker3.jpg"></a></li>
+		</ul>
+		<div class="imgBox"><img src="porschespeaker1.jpg">
+		</div>
+	</div>
+
+<!----------Product Information--------->
+	<div class="containers">
+		<p style="font-size: 40px">
+			Speaker
+		</p>
+		
+	</div>
+	<div class="Speakername">
+			<p>
+				JBL speaker BGX 66.2 2-Wa Co-axial Car Speaker (Black)
+			</p>
+		</div>
+	<div class="developername">
+		<p style="font-size: 125%;">
+			by JBL
+		</p>
+		</div>
+	<div class="revies">
+		<img src="5-stars-1.png" style="width: 40%;">
+	</div>
+	<div class="noofreviews">
+		<p style="font-size: 15px">
+			14,310 customer reviws</p>
+	</div>
+	<div class="noofreviews1">
+			<p style="font-size: 15px">
+			1000+ answered questions</p>
+	</div>
+	<div class="Mrp">
+		<p>
+			M.R.P:- 
+		</p>
+	</div>
+	<div class="rupee">
+		<p>
+			₹&nbsp;<strike>5000</strike>
+		</p>
+	</div>
+	<div class="Effectiveprice">
+		<p>
+			Price:- 
+		</p>
+	</div>
+	<div class="rupee1">
+		<p>
+			₹&nbsp;3000
+		</p>
+	</div>
+	<div class="yousave">
+		<p>
+			You Save:- 
+		</p>
+	</div>
+	<div class="rupee2">
+		<p>
+			₹&nbsp;2000(40%)
+		</p>
+	</div>
+	<div class="inclusive">
+		<p>
+			inclusive of all taxes
+		</p>
+	</div>
+	<div class="buyNow">
+		<button id="buyNow">BUY NOW</button>
+		<button id="addtocart">Add To Cart</button>
+	</div>
+	<div class="instock">
+		<p>
+			In Stock.
+		</p>
+	</div>
+	<div class="gurantee">
+		<p style="color: lightGreen;">
+			Guranteed
+		</p>
+	</div>
+	<div class="guranteedesc">
+		<p style="color: white;">
+			delivery to pincode ****** - District name by Tomorrow 9pm with One-Day  
+		</p>
+	</div>
+	<div class="guranteedesc1">
+		<p style="color: white;">
+		 Delivery — Order in the next 
+		</p>
+	</div>
+	<div class="guranteedesc2">
+		<p style="color: lightgreen;">
+		 _hours and _minutes. 
+		</p>
+	</div>
+	<div class="subdesc">
+		<p>
+			cash on delivery
+		</p>
+	</div>
+	<div class="description">
+		<p>
+			Product Description:
+		</p>
+	</div>
+	<div class="descriptioncontent1">
+		<p>The JBL GO brings JBL quality sound everywhere.Your all-in-one speaker solution, the GO streams music via Bluetooth from smartphones and tablets, powered by a rechargeable battery with up to 5 hours of playtime. It is also equipped with a convenient noise-cancelling speakerphone, allowing you to pick up calls without turning your speaker off.
+		</p>
+	</div>
+	<div class="descriptioncontent2">
+		<p> 
+			<ul type="oval" >
+				<li>Great sound and small form factor</li>
+				<li>Wireless Bluetooth Streaming with Transducer 1 x 40mm, Output power 3.0W, Frequency response 180Hz – 20kHz, Signal-to-noise ratio ≥80dB</li>
+				<li>Rechargeable Battery - Up to five hour playtime</li>
+				<li>Built-in Speakerphone</li>
+				<li>Compatible with smartphones and tablets</li>
+			</ul>
+		</p>
+	</div>
+	<hr style="style1">
+	<div class="suggest">
+		<p>Customer Who also viewed this</p>
+	</div>
+
+  <section class="cards">
+        <article>
+          <div class="card">
+            <div class="front">
+                <img src="sc34.jpg" style="width:100%; height: 100%;"> 
+            </div>
+            <div class="back">
+              <div class="details">
+                <h2>KENWOOD</h2>
+                <br><br><a href="test4.html"><button class="more">VIEW IT</button></a>        
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="card">
+            <div class="front">
+                <img src="sc28.jpg" style="width:100%; height: 100%;"> 
+            </div>
+            <div class="back">
+              <div class="details">
+                <h2>John Doe</h2>
+                <br><br><button class="more">More</button>        
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="card">
+            <div class="front">
+                <img src="sc38.jpg" style="width:100%; height: 100%;"> 
+            </div>
+            <div class="back">
+              <div class="details">
+                <h2>John Doe</h2>
+                <br><br><button class="more">More</button>        
+              </div>
+            </div>
+          </div>
+        </article>  
+    </section>          
+	<hr class="style2">
+	<div class="TechnicalDetails">
+		<p>
+			Technical Details:
+		</p>
+	</div>
+	<div class="TechnicalDetailsTable">
+		<table style="border-collapse: collapse;width: 100%;border-color: #ffffff;">
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Brand</td>
+				<td style="border:1px solid #000000;padding: 8px;">JBL</td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Model</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">JBLGO345</td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Model Name</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">Go</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Model Year</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">2015</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Item Weight</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">132 g</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Product Dimensions</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">8.3 x 3.1 x 6.8 cm</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Batteries:</td>
+				<td style="border:1.5px solid #000000;padding: 8px;"> 1 Lithium Polymer batteries required.</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">
+				Item model number</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">JBLGOBLK</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Included Components</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">1</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Number Of Items</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">1</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;"> Colour Screen</td>
+				<td style="border:1.5px solid #000000;padding: 8px;">No</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Spearkers Maximum Output Power </td>
+				<td style="border:1.5px solid #000000;padding: 8px;">3 Watts</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;"> Speaker Connectivity</td>
+				<td style="border:1.3px solid #000000;padding: 8px;">wireless</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;"> Audio Wattage </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">3 Watts</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;"> Voltage </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">3.7 Volts</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;"> Wattage </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">3 Watts</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Batteries Included  </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">Yes</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Batteries Required  </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">Yes</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Battery Cell Composition  </td>
+				<td style="border:1.3px solid #000000;padding: 8px;">Lithium Polymer</td>
+
+			</tr>
+		</table>
+
+	</div>
+	<div class="additionalinformation">
+		<p>
+			Additional Information
+		</p>
+
+	</div>
+	<div class="additionalinformationTable">
+		<table style="border-collapse: collapse;width: 70%;">
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">ASIN</td>
+				<td style="border:1px solid #000000;padding: 8px;background-color: white;">B00TFGWAA8</td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Customer Reviews</td>
+				<td style="border:1.5px solid #000000;padding: 8px;background-color: white;"><img src="5-stars-1.png"style="width: 40%;height: 35%">14,310 customer reviews
+</td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Best Sellers Rank</td>
+				<td style="border:1.5px solid #000000;padding: 8px;background-color: white;">#24 in Electronics (See top 100)#1 in Electronics > Hi-Fi & Home Audio > Speakers > Bluetooth Speakers</td>
+
+			</tr>
+			<tr>
+				<td style="border:1px solid #ffffff;color:white;padding: 8px;background-color: #000000;">Date First Available</td>
+				<td style="border:1.5px solid #000000;padding: 8px;background-color: white;">1 January 2017</td>
+
+			</tr>
+			</table>
+	</div>
+	<div class="warrantty">
+		<p>
+			Warranty & Support
+		</p>
+
+	</div>
+	<div class="WarrantyDetails">
+		<p>
+			Warranty Details: 1 Year Warranty
+		</p>
+	</div>
+	
+	
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="footer">
+<footer class="footer-distributed" id="carcontact">
+
+<div class="team-section1" align="center" style="height: auto; width: 100%;">
+  
+    <div class="ps1" align="center" >
+      <a href="original.html" >
+        <img src="gen2.png" style="padding: 1% 0% 2% 0%; height: 90px; width: 115px; text-align: center;"> <br> 100% Original Products
+      </a>
+      <a href="carterms.html">
+        <img src="passf11.png" style="padding: 1% 0% 2% 0%; height: 90px; width: 115px; text-align: center;"> <br> Guranteed Data Protection
+      </a>
+      <a href="contatct.html">
+        <img src="cust11.png" style="padding: 1% 0% 2% 0%; height: 90px; width: 115px; text-align: center;"> <br> 24x7 Help Center
+      </a>
+      <a href="about us.html">
+        <img src="loc11.png" style="padding: 1% 0% 2% 0%; height: 90px; width: 115px; text-align: center;"> <br> Locate Us
+      </a>
+    </div>
+    
+    <span class="border1" style="margin-top: 2%;"></span> 
+</div>
+
+
+
+
+                <div class="footer-left" style="padding: 1% 0% 0% 2%; font-size: 1.5em;">
+
+                    <p class="footer-links">
+                        <a href="carhome.html">Home</a>
+                        <br>
+                        <a href="#carshop">Shop</a>
+                        <br>
+                        <a href="carterms.html">Terms</a>
+                        <br>
+                        <a href="contatct.html">Contact Us</a>
+                        <br>
+                        <a href="about us.html">About Us</a>
+                    </p>
+
+                    
+                </div>
+
+                <div class="footer-center" style="padding: 1% 0% 0% 0%; font-size: 1.5em;">
+
+                    <div style=" color: #fff; padding: 2% 0% 0% 0%;font-family:  'Oleo Script', calibri, sans-sarif;">
+						
+                    	Office Address : 
+                    	<br>
+                        <p style="padding: 0% 0% 0% 5%;line-height: 28px; font-family: inherit;">
+						  3A-DB Ozone,<br>
+                          Western Highway,<br>
+                          Borivali West.<br>
+                          Mumbai-501109<br>
+                        </p>
+                    </div>
+
+    
+                </div>
+
+                <div class="footer-right" style="padding: 1% 2% 0% 0%; font-size: 1.5em;">
+
+                    <div style="color: #fff; padding: 2% 3% 0% 0%;font-family:  'Oleo Script', calibri, sans-sarif;">
+                    	About Carzova-
+                    	<br>
+                        <p style="padding: 0% 0% 0% 5%;line-height: 28px; font-family: inherit; text-align: justify;">
+						  Car Zova brings all Car accessories at a single platform needed to make your driving experience more pleasurable.
+                        </p>
+                    </div>
+
+                </div>
+
+<div class="team-section1" style="height: auto; width: 100%; padding-top: 2%;">
+  
+    <div class="ps2" align="center">
+      <a href="#" class="iconsfoot"><i class="fa fa-facebook" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-twitter" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-linkedin" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-phone" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-envelope" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+    </div>
+    
+  <span class="border1" style="margin-top: 2%;"></span> 
+
+
+<p class="footer-company-name" align="center" style="color: #fff; padding: 0; ">Carzova &copy; 2018</p>
+    </div>
+</footer>
+    
+    
+    
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.thumb a').mouseover(function(e){
+			e.preventDefault();
+			$('.imgBox img').attr("src",$(this).attr("href"));
+		})
+	})
+</script>
+</body>
+</html>

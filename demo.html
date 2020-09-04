@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<style type="text/css">
+		button.ml2 {
+        margin-left:45%;
+        font-size:14px;
+        padding:1em;
+        width:auto;
+        height:auto;
+        position:relative;
+        margin-top:2em;
+    }  .t5{
+        color:deepskyblue;
+        margin-left:12em;
+        padding:4em;
+        font-size:16px;
+        background-color:azure;
+        text-align:center;
+        margin-bottom:5em;
+    }
+	</style>
+</head>
+<body>
+	<br><br><br><br><br>
+    <button type="button" onclick="loadXMLDoc()" class="ml2">Players Info</button>
+
+    <br><br><br><br>
+    
+    <table id="demo" class="t5">
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+S
+<script >
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("Get", "tab1.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>name</th><th>address</th></tr>";
+  var x = xmlDoc.getElementsByTagName("Technical/Technical-Details");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("address")[0].childNodes[0].nodeValue +
+    "</td></tr>"
+  document.getElementById("demo").innerHTML = table;
+}
+}
+</script>
+</body>
+</html>

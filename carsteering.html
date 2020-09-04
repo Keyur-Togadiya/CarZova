@@ -1,0 +1,999 @@
+<!-- Instruct to the web browser about what version of HTML the page is written in( here it's 5)-->
+<!DOCTYPE html>
+
+<!--Indicates to browser document is an html file-->
+<html>
+
+
+<!--Head is a container for metadata -->
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="slider.css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <!--A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling-->
+  <meta name="viewport" content="width=device-width , initial_scale=1.0">
+  <link rel="stylesheet" href="logonav.css">
+  <link rel="stylesheet" href="k.css">
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+
+.w3-content{margin:0; padding:0;}
+
+.w3-section,.w3-code{margin-top:0px!important;margin-bottom:0px!important}
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.parallax {
+
+
+    /* Full heiht */
+    min-height: 390px;
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 4000px) {
+    .parallax {
+        background-attachment: scroll;
+        height: flex;
+    }
+}
+
+.w3-button{
+  border:none;
+  padding:8px 16px;
+  cursor:pointer;
+  text-align:center;
+  background-color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,1); 
+}
+
+.w3-button:hover{
+  color:rgba(255,255,255,1)!important;
+  background-color: rgba(120,150,120,0.4)!important
+}
+
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+
+
+.wrapper{
+  width: 300px;
+  height: 400px;
+  padding-right: 0%;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.img-area{
+        margin: 0;
+        height: 320px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        transition: 0.1s;
+      } 
+
+.img-caption{
+        margin: 0;
+        padding: 0;
+        line-height: 25px;
+        position: relative;
+        bottom: -100%;
+        transition: 0.01s linear;
+        overflow: hidden;
+
+      }
+.effect-top{
+        border-bottom: 10px;
+        border-right: 400px;
+      }
+
+.effect-bottom{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        height: 400px;
+        font-family: poppins;
+        font-size: 1.7vw;
+        width: 100%;
+        color: #fff;
+        background-color: rgba(52, 194, 158,0.85);
+       
+        padding-top: 65%;
+      }
+
+.wrapper:hover .img-area{
+        bottom: 0;
+        transform: scale(1);
+        height: 250px;
+        background-color: rgba(52, 194, 158,0.85); 
+        z-index: 1;
+      }
+
+.wrapper p{
+  color: black; 
+  padding-top: 6%;
+  text-align: center; 
+  font-size: 5vh;
+}
+
+
+.wrapper:hover p{
+  padding-top: 18%
+
+}
+.img-area:hover .img-caption {
+        bottom: 0;           
+      }
+
+
+
+
+
+*{
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+
+.team-section1{
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+}
+.team-section1 h1{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.border1{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.ps1{
+  margin-bottom: 0px;
+}
+.ps1 a{
+  display: inline-block;
+  margin: 0 6%;
+  width: 170px;
+  height: 160px;
+  overflow: hidden;
+  font: normal 3vh cursive;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.ps1 a img{
+  width: 100%;
+  filter: whitescale(100%);
+  transition: 0.4s all;
+}
+.ps1 a:hover > img{
+  filter: hue-rotate(100deg);
+}
+.section1{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section1:target{
+  height: auto;
+}
+.name1{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+
+
+
+.ps2{
+  margin-bottom: 0;
+}
+.ps2 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  font: normal 36px cursive;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2.5vh;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.team-section5{
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(28, 26, 26,1);
+  padding: 25px;
+}
+.team-section5 span{
+  margin: 0;
+  color:white;
+  font-size: 12vh;
+}
+.border5{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background-color:#fff;
+  color: #fff;
+  margin-bottom: 40px;
+
+}
+.ps5{
+  margin-bottom: 25px;
+}
+.ps5 a{
+  display: inline-block;
+  margin: 0 3%;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 1%;
+  
+}
+.ps5 a img{
+  width: 100%;
+  filter: none;
+  transition: 0.4s all;
+}
+.ps5 a:hover > img{
+  filter: grayscale(100%);
+}
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* car home */
+*{
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.parallax1{
+  height: 78vh;
+
+}
+   
+
+
+.team-sectionf{
+  height: auto;
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+  width: 100%;
+}
+.team-sectionf h1{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.borderf{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.psf0{
+  margin-bottom: 2%;
+}
+.psf0 a{
+  display: inline-block;
+  margin: 0 6% 2% 0;
+  width: 170px;
+  height: 120px;
+  overflow: hidden;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.psf0 a img{
+  width: 115px;
+  height: 90px;
+  text-align: center;
+  filter: sepia(80%);
+  transition: 0.4s all;
+}
+.psf0 a:hover > img{
+  filter: sepia(100%);
+}
+
+.psf02{
+  margin-bottom: 0;
+}
+.psf02 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2vh;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/*  Responsive @media   */
+@media screen and (max-width:1100px) {
+  
+  *{
+    font-family:  'Oleo Script',calibri, sans-sarif;
+    font-size: 2vh;
+  }
+
+
+  body main .parallax1{
+    height: 37vh;
+  }
+
+/* Footer responsive */
+.team-sectionf{
+  height: auto;
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+  width: 100%;
+}
+.team-sectionf h1{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.borderf{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.psf0{
+  margin-bottom: 2%;
+}
+.psf0 a{
+  display: inline-block;
+  margin: 0 6% 5% 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.psf0 a img{
+  margin: 2.5px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  filter: sepia(80%);
+  transition: 0.4s all;
+}
+.psf0 a:hover > img{
+  filter: sepia(100%);
+}
+
+.psf02{
+  margin-bottom: 0;
+}
+.psf02 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2vh;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+
+
+}
+
+
+
+</style>
+</head>
+
+
+
+
+<!--Body of the document, part of doc. inside body will be seen on browser-->
+<body>
+<header style="margin:0; padding:0;">
+<div class="fix">      
+  
+    <nav>
+    <div id="navdiv">
+     <nav style="margin:0; padding:0;">
+     <a href="carhome.html">
+     <img src="logo.png">
+     </a>
+      </nav>
+      </div>  
+    <ul class="topnav">
+            <li align="left" id="carzova">Car Zova</li>
+            <li><a class="active" href="carhome.html" style="background-color: #fff; color: #000;">Home</a></li>
+            <li><a href="carshop.html">Shop</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="contatct.html">Contact</a></li>
+            <li><a href="#carcontact" >...</a></li>
+            <li  id="drop">
+              <a href="carlogin.html" style="background-color: rgba(28,26,26,1); transform: skewX(0deg);"><img src="user1.png" style=""></a>       
+            </li>
+            </ul>
+      </nav>
+    </div>
+</header> 
+
+
+
+<main>
+<div class="parallax1">
+<div class="w3-content w3-section" style="height:100%;">
+  <img class="mySlides w3-animate-fading" src="st27.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st16.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st04.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st07.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st31.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st33.jpg" style="width:100%; height: 99%;">
+  <img class="mySlides w3-animate-fading" src="st29.jpg" style="width:100%; height: 99%;">
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)"> &#10094; </button>
+  <button class="w3-button w3-display-right" onclick="plusDivs(1)"> &#10095; </button>
+</div>
+</div>
+
+
+
+<div class="team-section5" id="carshop">
+		<span style="font-family: 'Cookie','Oleo Script', calibri, sans-sarif;">Steering</span>
+		<h1 class="border5" style="margin-top: 1%; margin-bottom: 4%;"></h1>
+		
+
+<div class="ps5"style="">   
+  <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+     <div class="wrapper">
+       <div class="img-area" style="background-image: url(st31.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom">
+            
+          </div>  
+          </div></div>
+         <p style="">
+            Audi</p>
+      </div>
+	  </a>
+
+   <a href="ferraristeering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+			 <div class="img-area" style="background-image: url(st30.jpg); width: 100%;">
+				<div class="img-caption">
+					<div class="effect-top"></div>
+					<div class="effect-bottom" style="background-color: rgba(216, 88, 131,0.85)">
+						
+            
+					</div>	
+				  </div></div>
+         <p >
+            Ferrari </p>
+      </div>
+	  </a>
+
+
+
+    <a href="porshesteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st34.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom"  style="background-color: rgba(97, 182, 206,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+	  </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="ps5"style="">   
+  <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+     <div class="wrapper">
+       <div class="img-area" style="background-image: url(st15.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(212, 232, 88,0.85)">
+              
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+   <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st10.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color:rgba(237, 145, 99,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Mercedes </p>
+      </div>
+   </a>
+
+     <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st32.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(216, 88, 131,0.85)">
+                 
+
+          </div>  
+          </div></div>
+         <p >
+            Koenigsegg  </p>
+      </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ps5"style="">   
+  <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+     <div class="wrapper">
+       <div class="img-area" style="background-image: url(st14.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+     <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st29.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(97, 182, 206,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+     <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st28.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(144, 76, 239,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>     
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ps5"style="">   
+  <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+     <div class="wrapper">
+       <div class="img-area" style="background-image: url(st26.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(237, 145, 99,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+    <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st18.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(112, 32, 88,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+    <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st06.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(212, 232, 88,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+    </div>
+
+
+   <div class="ps5"style="">   
+  <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+     <div class="wrapper">
+       <div class="img-area" style="background-image: url(st01.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(237, 145, 99,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+     <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st02.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom" style="background-color: rgba(144, 76, 239,0.85)">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+    </a>
+
+    <a href="audisteering.html" style="text-decoration: none; margin-top: 5vh; margin-bottom:10vh;">
+      <div class="wrapper">
+       <div class="img-area" style="background-image: url(st05.jpg); width: 100%;">
+        <div class="img-caption">
+          <div class="effect-top"></div>
+          <div class="effect-bottom">
+            
+             
+
+          </div>  
+          </div></div>
+         <p >
+            Porshe </p>
+      </div>
+</a>
+    </div>
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
+
+
+console.log('hi');
+
+
+</script>
+
+
+<footer class="footer-distributed" id="carcontact">
+
+<div class="team-sectionf" align="center" style="height: auto; width: 100%;">
+  
+    <div class="psf0" align="center" >
+      <a href="original.html" >
+        <img src="gen2.png" > <br> 100% Original Products
+      </a>
+      <a href="carterms.html">
+        <img src="passf11.png" > <br> Guranteed Protection
+      </a>
+      <a href="contatct.html">
+        <img src="cust11.png" > <br> 24x7 Help Center
+      </a>
+      <a href="about us.html">
+        <img src="loc11.png" > <br> Locate Us
+      </a>
+    </div>
+    
+    <span class="borderf" style="margin-top: 2%;"></span> 
+</div>
+
+
+
+
+                <div class="footer-left" style="padding: 1% 0% 0% 2%; font-size: 1.1em;">
+
+                    <p class="footer-links">
+                        <a href="carhome.html">Home</a>
+                        <br>
+                        <a href="carshop.html">Shop</a>
+                        <br>
+                        <a href="carterms.html">Terms</a>
+                        <br>
+                        <a href="contatct.html">Contact Us</a>
+                        <br>
+                        <a href="about us.html">About Us</a>
+                    </p>
+
+                    
+                </div>
+
+                <div class="footer-center" style="padding: 1% 0% 0% 0%; font-size: 1.1em;">
+
+                    <div style=" color: #fff; padding: 2% 0% 0% 0%;">
+            
+                      Office Address : 
+                      <br>
+                        <p style="padding: 0% 0% 0% 8%;line-height: 1.6em; font-family: inherit; text-align: left">
+                          3A-DB Ozone,<br>
+                          Western Highway,<br>
+                          Borivali West.<br>
+                          Mumbai-501109<br>
+                        </p>
+                    </div>
+
+    
+                </div>
+
+                <div class="footer-right" style="padding: 1% 2% 0% 0%; font-size: 1.1em;">
+
+                    <div style="color: #fff; padding: 2% 3% 0% 0%;">
+                      About Carzova-
+                      <br>
+                        <p style="padding: 0% 0% 0% 3%; line-height: 1.6em; font-family: inherit; text-align: justify;">
+              Car Zova brings all Car accessories at a single platform needed to make your driving experience more pleasurable.
+                        </p>
+                    </div>
+
+                </div>
+
+<div class="team-sectionf" style="height: auto; width: 100%; padding-top: 2%;">
+  
+    <div class="psf02" align="center">
+      <a href="#" class="iconsfoot"><i class="fa fa-facebook" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-twitter" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-linkedin" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-phone" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-envelope" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+    </div>
+    
+  <span class="borderf" style="margin-top: 2%;"></span> 
+
+
+<p class="footer-company-name" align="center" style="color: #fff; padding: 0; ">Carzova &copy; 2018</p>
+    </div>
+</footer>
+    
+    
+
+</body>
+</html>
+
+

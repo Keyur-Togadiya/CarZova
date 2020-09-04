@@ -1,0 +1,110 @@
+*{
+   font-family:  calibri,"Times New Roman", "sans-serif";
+   margin:0px 0px;
+   padding:0px 0px;
+   font-size: 1.4vw;
+   color: #000;	
+}
+
+body{
+    background-image: url(rg6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form{
+    	transition-delay: 5s; 
+    	display: block;
+    	margin: 8% auto 8% auto;
+    	 background: rgba(70,70,70,0.5); 
+    	 width: 60%;
+    	 height: auto;
+    	  }
+
+
+.simple-form{
+	text-align: center;
+	margin: 1% 0%;
+	border: 2px;
+}
+
+#button{
+	width: 31.5%;
+	padding: 1%;
+	border-radius: 5px;
+	outline: 0px;
+}
+
+#ph{
+	outline: 0px;
+	width: 8.5%;
+	padding: 1%;
+	border-radius: 5px;	
+}
+#phone{
+	outline: 0px;
+	width: 22.5%;
+	padding: 1%;
+	padding-left: 1%;
+	border-radius: 5px;
+}
+
+#but{
+	display: inline-block;	
+	text-align:left;
+	width:12.8%;
+	padding-right: 2%;
+	color: #000;
+	font-weight: bold;
+}
+
+#but1{
+	display: inline-block;	
+	text-align:left;
+	width:12.8%;
+	padding-right: 2%;
+	color: #000;
+	font-weight: bold;
+}
+
+option,input,textarea{
+	color: #000;
+}
+span{
+	color:#000;
+	font-weight: bold;
+}
+
+b{
+	font-size: 5vw;
+}
+
+textarea{
+	width: 31.5%;
+}
+
+form input, span, option, textarea{
+			font-family: 'Rancho';
+		}
+
+		
+.frmbtn,.frmbt{
+    margin: 0;
+    margin-top: 1%;
+    border-color: black;
+    padding: 1%;
+    text-decoration: none;
+    cursor: pointer;
+    width: 10%;
+    background-color: black;
+    opacity: 0.7;    
+    }
+
+
+.frmbtn,.frmbt:hover{
+    	color: black;
+        background: rgba(0,0,0,0.5)
+    }

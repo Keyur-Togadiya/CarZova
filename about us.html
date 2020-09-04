@@ -1,0 +1,834 @@
+<!-- Instruct to the web browser about what version of HTML the page is written in( here it's 5)-->
+<!DOCTYPE html>
+
+<!--Indicates to browser document is an html file-->
+<html>
+
+
+<!--Head is a container for metadata -->
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <!--A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling-->
+  <meta name="viewport" content="width=device-width , initial_scale=1.0">
+  <link rel="stylesheet" href="logonav.css">
+  <link rel="stylesheet" href="k.css">
+  <link rel="stylesheet" type="text/css" href="teststyle.css">
+<!--Gives title of the document-->
+<title> CARZOVA </title>
+<style type="text/css">
+
+
+	<style type="text/css">
+	*{
+		margin:0;
+		padding: 0;
+		font-family: 'Oleo Script', calibri, sans-sarif;
+    background-color: rgba(28, 26, 26,1);
+	}
+	body{
+    background-color: rgba(28, 26, 26,1);
+	}
+	
+
+	.img{
+		background:url(1.jpg);
+		width: 100vw;
+		height: 88vh;
+		background-size: cover;
+		background-attachment: relative;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.img .overlay1{
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		color: white;
+		text-shadow: 1px 1px 1px #333;
+		background-image:  linear-gradient(150deg, rgba(0,50,0,0.5) 40%, rgba(0,0,50,0.5) 60%, rgba(0,0,50,0.5) 100%);
+	}
+	
+	.overlay{
+		width: 100%;
+		height: 100%;
+		padding:120px;
+		color: white;
+		text-shadow: 1px 1px 1px #333;
+		background-image:  linear-gradient(165deg, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0) 20%,rgba(0,0,0,0) 80%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.6) 100%);
+	}
+
+
+
+
+
+.team-section5{
+	overflow: hidden;
+	text-align: center;
+	background-color: rgba(28, 26, 26,1);
+	padding: 25px;
+}
+.team-section5 span{
+	margin: 0;
+	color:white;
+	font-size: 12vh;
+}
+.border5{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background-color:#fff;
+	color: #fff;
+	margin-bottom: 40px;
+
+}
+.ps5{
+	margin-bottom: 40px;
+}
+.ps5 a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 1%;
+	
+}
+.ps5 a img{
+	width: 100%;
+	filter: none;
+	transition: 0.4s all;
+}
+.ps5 a:hover > img{
+	filter: grayscale(100%);
+}
+
+.section5{
+  width: 700px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+
+.section5 .int{
+      color: rgba(28, 26, 26,1); 
+      margin: 5%; 
+      padding: 1% 0% 2% 0%; 
+      font: normal 4.1vh 'Oleo Script', cursive; 
+      text-align: justify; 
+      line-height: 5.5vh;
+}
+
+.section5:target{
+  height: auto;
+}
+.name5{
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  font-size: 1.8em; 
+  color: rgba(28, 26, 26,1);
+}
+
+
+
+
+/* Map (Geolocation)*/
+#map{
+height:400px;
+width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* car home */
+
+.parallax1{
+  height: 78vh;
+
+}
+
+
+.team-section1{
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+}
+.team-section1 h2{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 18vh;
+  font-weight: 100;
+  transform: rotate(-15deg);
+  font-family: 'Cookie','Oleo Script', calibri, sans-sarif;
+}
+.border1{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.ps1{
+  margin-bottom: 0px;
+}
+.ps1 a{
+  display: inline-block;
+  margin: 0 6%;
+  width: 170px;
+  height: 160px;
+  overflow: hidden;
+  font: normal 3vh cursive;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.ps1 img{
+  width: 42vw; 
+  min-width: 300px; 
+  float: left; 
+  padding-left: 2.5%; 
+  padding-top: 1%;
+}
+
+.ps1 div{
+  padding: 5% 0% 0% 45%;
+}
+
+.ps1 div p{
+  color: #fff; 
+  padding: 0% 10% 0% 2%; 
+  font: normal 4.1vh 'Oleo Script', cursive; 
+  line-height: 5.5vh;
+  font-weight: 100;
+}
+
+.ps1 p{
+  margin: 5% 3% 5% 3%;
+  color: #fff; 
+  padding: 0% 10% 0% 2%; 
+  font: normal 4.1vh 'Oleo Script', cursive; 
+  line-height: 5.5vh;
+  font-weight: 100;
+}
+
+
+.ps2{
+  margin-bottom: 0;
+}
+.ps2 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  font: normal 36px cursive;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2.5vh;
+  text-align: center;
+  border-radius: 50%;
+}
+    
+    
+ 
+    
+    
+
+
+
+
+.team-sectionf{
+  height: auto;
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+  width: 100%;
+}
+.team-sectionf h1{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.borderf{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.psf0{
+  margin-bottom: 2%;
+}
+.psf0 a{
+  display: inline-block;
+  margin: 0 6% 2% 0;
+  width: 170px;
+  height: 120px;
+  overflow: hidden;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.psf0 a img{
+  width: 115px;
+  height: 85px;
+  text-align: center;
+  filter: sepia(80%);
+  transition: 0.4s all;
+}
+.psf0 a:hover > img{
+  filter: sepia(100%);
+}
+
+.psf02{
+  margin-bottom: 0;
+}
+.psf02 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2vh;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/*  Responsive @media   */
+@media screen and (max-width:1100px) {
+  
+  *{
+    font-family:  'Oleo Script',calibri, sans-sarif;
+    font-size: 2vh;
+  }
+
+
+  body main .parallax1{
+    height: 37vh;
+  }
+
+
+/* Footer responsive */
+.team-sectionf{
+  height: auto;
+  overflow: hidden;
+  padding: 0% 0% 0% 0%;
+  width: 100%;
+}
+.team-sectionf h1{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+}
+.borderf{
+  display: block;
+  margin: 1% auto 1% auto;
+  width: 180px;
+  height: 4px;
+  background:#fff;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 30%;
+}
+
+
+
+.psf0{
+  margin-bottom: 2%;
+}
+.psf0 a{
+  display: inline-block;
+  margin: 0 6% 5% 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.psf0 a img{
+  margin: 2.5px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  filter: sepia(80%);
+  transition: 0.4s all;
+}
+.psf0 a:hover > img{
+  filter: sepia(100%);
+}
+
+.psf02{
+  margin-bottom: 0;
+}
+.psf02 a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0.5% 3% 0.5% 3%;
+  padding: 0.5%;
+  overflow: hidden;
+  text-decoration: none;
+  color: #f00;
+  font-size: 2vh;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+
+/* Map (Geolocation)*/
+#map{
+height:250px;
+width: 70%;
+}
+
+
+/* Image*/
+.img{
+    background:url(1.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-attachment: relative;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img .overlay1{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+    background-image: none;
+  }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    padding:120px;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+    background-image: none;
+  }
+
+
+
+  .overlayer .textc h1{
+    text-shadow: 1vw 1vw 2vw #000; 
+    font: normal 3vh 'Cookie', cursive; 
+  }
+
+.team-section1 h2{
+  margin-bottom: 60px;
+  color:white;
+  font-size: 10vh;
+  font-weight: 100;
+  transform: rotate(-14deg);
+  font-family: 'Cookie','Oleo Script', calibri, sans-sarif;
+}
+
+.ps1{
+  width: 100vw;
+}
+
+.ps1 img{
+  width: 92vw; 
+  min-width: 300px; 
+  display: block;
+  float: center; 
+  margin: 1% 3% 1% 3%; 
+}
+
+.ps1 div{
+  display: block;
+  width: 100%;
+  padding: 5% 0% 0% 0%;
+}
+
+.ps1 div p{
+  text-align: justify;
+  color: #fff; 
+  padding: 0% 2% 0% 2.5%; 
+  font: normal 3.5vh 'Oleo Script', cursive; 
+  line-height: 5vh;
+  font-weight: 100;
+}
+
+.ps1 p{
+  margin-top: 8%;
+  text-align: justify;
+  color: #fff; 
+  padding: 0% 2% 0% 2%; 
+  font: normal 3.5vh 'Oleo Script', cursive; 
+  line-height: 5vh;
+  font-weight: 100;
+  margin-bottom: 8%;
+}
+
+.ps5 a{
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 1%;
+  
+}
+
+.section5{
+  width: 98%;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+
+.section5 .int{
+      color: rgba(28, 26, 26,1); 
+      margin: 5%; 
+      padding: 1% 0% 2% 0%; 
+      font: normal 3.2vh 'Oleo Script', cursive; 
+      text-align: justify; 
+      line-height: 5vh;
+}
+
+.section5:target{
+  height: auto;
+}
+.name5{
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Oleo Script', calibri, sans-sarif;
+  font-size: 6vh; 
+  color: rgba(28, 26, 26,1);
+}
+
+
+
+}
+</style>
+
+
+
+
+</head>
+
+
+<!--Body of the document, part of doc. inside body will be seen on browser-->
+<body>
+<header style="margin:0; padding:0;">
+<div class="fix">      
+  
+    <nav>
+    <div id="navdiv">
+     <nav style="margin:0; padding:0;">
+     <a href="carhome.html">
+     <img src="logo.png">
+     </a>
+      </nav>
+      </div>  
+    <ul class="topnav">
+            <li align="left" id="carzova" style="background-color: rgba(28,26,26,1);">Car Zova</li>
+            <li><a class="active" href="carhome.html" style="background-color: #fff; color: #000;">Home</a></li>
+            <li><a href="carshop.html">Shop</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="contatct.html">Contact</a></li>
+            <li><a href="#carcontact" >...</a></li>
+            <li  id="drop">
+              <a href="carlogin.html" style="background-color: rgba(28,26,26,1); transform: skewX(0deg);"><img src="user1.png" style=""></a>       
+            </li>
+            </ul>
+      </nav>
+    </div>
+</header> 
+
+
+    
+    
+    
+<div class="team-section1" style="margin: 0; padding: 0;">	
+<div class="img">
+	<div class="overlay1">
+	<div class="overlay">
+			<div class="textc">
+			<h2>
+				<span style="color: rgba(255,71,71,1); font: inherit; ">Car</span>Zova
+			</h2>
+			</div>	
+	</div>
+</div>	
+</div>
+</div>
+
+
+
+
+
+<div class="team-section1" align="center" style="height: auto; width: 100%; padding-top: 5%;">
+
+	<div class="ps1" align="center" >
+  	<span style="font-family: 'Cookie','Oleo Script', calibri, sans-sarif; color: #fff; font-size: 10vh;">Why Choose Carzova</span>
+		<h1 class="border5" style="margin-top: 1%; margin-bottom: 0%;"></h1>
+	</div>
+    <div class="ps1" align="center" >
+     <img src="caro.png" class="w3-anime-br">
+     	<div>	
+       <p> Innovation and Excitement For Everyone. <br>For Carzova, this means providing best of accessories to customers that are more efficient, more beautiful, more inspiring more human than ever before. <br><br> It means simply making cars accessories available to customers that change the world and the way we move through it, at most aggressive price.</p>
+   	   </div>
+	</div>
+	<div class="ps1" align="center" >
+		<p style="color: #fff">
+	We are dedicated to precision, overseeing every detail with a keen and expert eye. <br> This ensures a reliable quality to our finished products. We value the importance of timely and efficient production and delivery of components to our clients.
+    	</p>
+	</div>
+</div>
+
+
+
+<div>	
+
+<div class="team-section5" style="height: auto; padding-top: 3%; background-color: #fff; color: rgba(28, 26, 26,1);">
+		<span style="font-family: 'Cookie','Oleo Script', calibri, sans-sarif;  color: rgba(28, 26, 26,1);">Our Team</span>
+		<h1 class="border5" style="margin-top: 1%; margin-bottom: 5%; background-color: rgba(28, 26, 26,1);"></h1>
+
+		<div class="ps5">
+			
+			<a href="#p1" style="border-radius: 50%;"><img src="keyur.jpg" alt="keyur"></a>
+			<a href="#p2" style="border-radius: 50%;"><img src="agam.jpg" alt="agam"></a>
+		
+			<div class="section5" id="p1" style="margin-top: 3%;">
+			<p class="name5">Keyur Togadiya</p>
+
+			<h1 class="border5" style=" background-color: rgba(28, 26, 26,1);"></h1>
+			<p class="int">
+				An ambitious web developer with a passion for structuring, developing and implementing interactive websites. Dedicated to building and optimizing the performance of user-centric, high-impact websites. 
+			</p>
+		</div>
+    
+				<div class="section5" id="p2">
+			<p class="name5">Agam Shah</p>
+      
+			<h1 class="border5" style=" background-color: rgba(28, 26, 26,1);"></h1>
+			<p class="int">
+				Create and maintain optimally functional websites and applications as tools in achieving the company’s mission and vision. Have enriched my understanding and skills in web development by working with projects across widely varied niches.
+			</p>
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+<div class="team-section5">
+		<span style="font-family: 'Cookie','Oleo Script', calibri, sans-sarif;">Our Partners</span>
+		<h1 class="border5" style="margin-top: 1%; margin-bottom: 4%;"></h1>
+		<div class="ps5">
+			<a><img src="ic1.jpg" alt=""></a>
+			<a><img src="ic2.jpg" alt=""></a>
+			<a><img src="ic34.jpg" alt=""></a>
+			<a><img src="ic4.jpg" alt=""></a>
+		</div>
+		<div class="ps5">
+			<a><img src="ic5.png" alt=""></a>
+			<a><img src="ic6.png" alt=""></a>
+			<a><img src="ic7.png" alt=""></a>
+			<a><img src="ic8.png" alt=""></a>
+		</div>
+		<div>
+			<span style="display: block; margin: auto; width: 830px; height: 3px; background:#FFFFFF; margin-bottom: 40px;"></span>
+		</div>
+</div>
+
+
+
+
+
+<div class="team-section1" align="center" style="height: auto; width: 100%; padding: 0; background-color: #fff;">
+<div class="locate">
+<p style="font-family: 'Cookie','Oleo Script', calibri, sans-sarif; color: #fff; font-size: 10vh; color: rgba(28, 26, 26,1); margin-top: 2%;">Locate Us</p>
+<h1 class="border5" style=" background-color: rgba(28, 26, 26,1);"></h1>
+<button id="map">Locate</button>
+</div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat:  19.2436, lng: 72.8558};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZy_MPVMw8PVvuFia_cXavWALMEITdZMg&callback=initMap"></script>
+    <span class="border5" style="margin-top: 2.5%;"></span> 
+</div>
+
+
+
+
+
+
+
+
+
+<footer class="footer-distributed" id="carcontact">
+
+<div class="team-sectionf" align="center" style="height: auto; width: 100%;">
+  
+    <div class="psf0" align="center" >
+      <a href="original.html" >
+        <img src="gen2.png" > <br> 100% Original Products
+      </a>
+      <a href="carterms.html">
+        <img src="passf11.png" > <br> Guranteed Protection
+      </a>
+      <a href="contatct.html">
+        <img src="cust11.png" > <br> 24x7 Help Center
+      </a>
+      <a href="about us.html">
+        <img src="loc11.png" > <br> Locate Us
+      </a>
+    </div>
+    
+    <span class="borderf" style="margin-top: 2%;"></span> 
+</div>
+
+
+
+
+                <div class="footer-left" style="padding: 1% 0% 0% 2%; font-size: 1.1em;">
+
+                    <p class="footer-links">
+                        <a href="carhome.html">Home</a>
+                        <br>
+                        <a href="carshop.html">Shop</a>
+                        <br>
+                        <a href="carterms.html">Terms</a>
+                        <br>
+                        <a href="contatct.html">Contact Us</a>
+                        <br>
+                        <a href="about us.html">About Us</a>
+                    </p>
+
+                    
+                </div>
+
+                <div class="footer-center" style="padding: 1% 0% 0% 0%; font-size: 1.1em;">
+
+                    <div style=" color: #fff; padding: 2% 0% 0% 0%;">
+            
+                      Office Address : 
+                      <br>
+                        <p style="padding: 0% 0% 0% 8%;line-height: 1.6em; font-family: inherit; text-align: left">
+                          3A-DB Ozone,<br>
+                          Western Highway,<br>
+                          Borivali West.<br>
+                          Mumbai-501109<br>
+                        </p>
+                    </div>
+
+    
+                </div>
+
+                <div class="footer-right" style="padding: 1% 2% 0% 0%; font-size: 1.1em;">
+
+                    <div style="color: #fff; padding: 2% 3% 0% 0%;">
+                      About Carzova-
+                      <br>
+                        <p style="padding: 0% 0% 0% 3%; line-height: 1.6em; font-family: inherit; text-align: justify;">
+              Car Zova brings all Car accessories at a single platform needed to make your driving experience more pleasurable.
+                        </p>
+                    </div>
+
+                </div>
+
+<div class="team-sectionf" style="height: auto; width: 100%; padding-top: 2%;">
+  
+    <div class="psf02" align="center">
+      <a href="#" class="iconsfoot"><i class="fa fa-facebook" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-twitter" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-linkedin" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-phone" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+      <a href="#" class="iconsfoot"><i class="fa fa-envelope" style=" color: #000; font-size: 2.2em; margin: 3%;"></i></a>
+    </div>
+    
+  <span class="borderf" style="margin-top: 2%;"></span> 
+
+
+<p class="footer-company-name" align="center" style="color: #fff; padding: 0; ">Carzova &copy; 2018</p>
+    </div>
+</footer>
+    
+    
+
+
+</body>
+</html>
